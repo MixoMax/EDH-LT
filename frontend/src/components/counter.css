@@ -1,0 +1,23 @@
+
+
+.Counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+.Counter-container * {
+    margin: 0 10px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Counter-container span {
+    /* make text centered */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
