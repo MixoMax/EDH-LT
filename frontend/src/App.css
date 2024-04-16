@@ -1,0 +1,31 @@
+
+
+html{
+    font: 2.2vh Helvetica-Neue, Helvetica, sans-serif;
+}
+
+
+.UI {
+    position: fixed;
+    z-index: 999;
+}
+
+#remove-counter {
+    top: 15px;
+    left: 15px;
+    width: 150px;
+}
+
+#add-counter {
+    top: 15px;
+    
+    /* 15 px padding left + 150px width of remove-counter + 15px padding to button */
+    left: 180px;
+    width: 150px;
+}
+
+.App-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
